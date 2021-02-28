@@ -1,0 +1,42 @@
+.h1Style{
+    color: rgb(23, 23, 180);
+    font-size: 24px;
+    font-weight: bold;
+}
+.h1Style2{
+    color: rgb(192, 49, 116);
+    font-size: 26px;
+    font-family:Georgia;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 1px 1px;
+    padding: 10px 10px 10px 10px;
+}
+.h2Style{
+    color: rgb(42, 92, 12);
+    font-size: 20px;
+}
+.pStyle{
+    font-size: 14px;
+}
+.aStyle{
+    font-size: 20px;
+}
+
+.grid-container{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: #3b8ac7;
+    padding: 10px;
+    box-shadow: 2px 2px grey;
+}
+.grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(51, 47, 47, 0.8);
+    border-width: 2px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
