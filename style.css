@@ -23,6 +23,11 @@
 .aStyle{
     font-size: 20px;
 }
+.warning{
+    font-size: 18px;
+    color: black;
+    background-color: yellow;
+}
 
 .grid-container{
     
